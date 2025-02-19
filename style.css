@@ -1,0 +1,33 @@
+:root{
+    --transparet :#F5F5F5;
+    --cream:#FFFcd8 ;
+}
+.nav-item:hover{
+
+    text-decoration: underline 2px black;
+}
+.form{
+    background-color: var(--transparet);
+    width: 20vw;
+}
+/* ABOUT SECTION */
+
+.section {
+    width: 100%;
+    min-width: 100vh;
+}
+.container {
+    width: 80%;
+    display: block;
+   margin: auto ;
+
+}
+.content-section {
+    float: left;
+    width: 55%;
+    background-color: red;
+}
+.img-sec{
+    float: center;
+    width: 30%;
+}
