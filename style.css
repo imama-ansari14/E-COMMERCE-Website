@@ -2,6 +2,11 @@
     --transparet :#F5F5F5;
     --cream:#FFFcd8 ;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 .nav-item:hover{
 
     text-decoration: underline 2px black;
@@ -12,7 +17,7 @@
 }
 /* ABOUT SECTION */
 
-.section {
+.section, .section2 , .section3 , .section4 {
     width: 100%;
     min-width: 100vh;
 }
