@@ -19,15 +19,17 @@
 .container {
     width: 80%;
     display: block;
-   margin: auto ;
+   margin: 0px ;
 
 }
 .content-section {
-    float: left;
     width: 55%;
-    background-color: red;
+    
 }
 .img-sec{
     float: center;
     width: 30%;
+}
+.about-c:hover{
+    background-color: rgb(219, 68, 68);
 }
