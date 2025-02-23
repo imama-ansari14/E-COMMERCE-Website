@@ -7,14 +7,12 @@
     padding: 0px;
     box-sizing: border-box;
 }
+/* NAVBAR */
 .nav-item:hover{
 
     text-decoration: underline 2px black;
 }
-.form{
-    background-color: var(--transparet);
-    width: 20vw;
-}
+
 /* ABOUT SECTION */
 .section img {
     max-height: 400px;
