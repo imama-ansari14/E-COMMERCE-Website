@@ -16,25 +16,10 @@
     width: 20vw;
 }
 /* ABOUT SECTION */
-
-.section, .section2 , .section3 , .section4 {
-    width: 100%;
-    min-width: 100vh;
-}
-.ab-c {
-    width: 80%;
-    display: block;
-   margin: 0px ;
-
-}
-.content-section {
-    width: 55%;
-    
-}
-.img-sec{
-    float: center;
-    width: 30%;
-}
-.about-c:hover{
+.section img {
+    max-height: 400px;
+    object-fit: cover;
+  }
+  .about-c:hover {
     background-color: rgb(219, 68, 68);
-}
+  }
