@@ -2,22 +2,158 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wishlist</title>
-    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wishlist Section</title>
+  <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+
 </head>
-
 <body>
-    <!-- wishlist -->
+    
+  <div class="container my-5">
+    <!-- Wishlist Header 1 -->
+    <div class="d-flex justify-content-between align-items-center my-5">
+      <h5 class="fw-semibold">Wishlist (4)</h5>
+      <button type="button" class="btn btn-outline-secondary fw-bold">Move All To Bag</button>
+    </div>
 
+    <!-- Wishlist Row 1 -->
+    <div class="row g-4 shadow rounded ">
+      <!-- Card 1 -->
+      <div class="col-md-6 col-lg-3 ">
+        <div class="wish-h card border-0 shadow-sm">
+          <div class="position-relative">
+            <span class="badge bg-danger position-absolute top-0 start-0 m-2">-35%</span>
+            <button class="btn btn-light position-absolute top-0 end-0 m-2 border rounded-circle">🗑</button>
+            <img src="images/GUCCIE.png" class="card-img-top img-fluid rounded" alt="Gucci Bag">
+          </div>
+          <div class="card-body text-center">
+            <h6 class="card-title">Gucci Duffle Bag</h6>
+            <p class="text-danger fw-bold">$960 <span class="text-muted text-decoration-line-through">$1160</span></p>
+            <button class="btn btn-dark w-100">🛒 Add To Cart</button>
+          </div>
+        </div>
+      </div>
 
+      <!-- Card 2 -->
+      <div class="col-md-6 col-lg-3 ">
+        <div class="card border-0 shadow-sm ">
+          <div class="position-relative">
+            <button class="btn btn-light position-absolute top-0 end-0 m-2 border rounded-circle">🗑</button>
+            <img src="images/cooler.png" class="card-img-top img-fluid rounded" alt="CPU Cooler">
+          </div>
+          <div class="card-body text-center">
+            <h6 class="card-title">RGB Liquid CPU Cooler</h6>
+            <p class="text-danger fw-bold">$1960</p>
+            <button class="btn btn-dark w-100">🛒 Add To Cart</button>
+          </div>
+        </div>
+      </div>
 
+      <!-- Card 3 -->
+      <div class="col-md-6 col-lg-3 ">
+        <div class="card border-0 shadow-sm ">
+          <div class="position-relative">
+            <button class="btn btn-light position-absolute top-0 end-0 m-2 border rounded-circle">🗑</button>
+            <img src="images/gamepad.png" class="card-img-top img-fluid rounded" alt="Gamepad">
+          </div>
+          <div class="card-body text-center">
+            <h6 class="card-title">Shooter USB Gamepad</h6>
+            <p class="text-danger fw-bold">$550</p>
+            <button class="btn btn-dark w-100">🛒 Add To Cart</button>
+          </div>
+        </div>
+      </div>
 
+      <!-- Card 4 -->
+      <div class="col-md-6 col-lg-3 ">
+        <div class="card border-0 shadow-sm">
+          <div class="position-relative">
+            <button class="btn btn-light position-absolute top-0 end-0 m-2 border rounded-circle">🗑</button>
+            <img src="images/jacket.png" class="card-img-top img-fluid rounded" alt="Jacket">
+          </div>
+          <div class="card-body text-center">
+            <h6 class="card-title">Quilted Satin Jacket</h6>
+            <p class="text-danger fw-bold">$750</p>
+            <button class="btn btn-dark w-100">🛒 Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<br><br>
+ <!-- Wishlist Header 2 -->
+ <div class="d-flex justify-content-between align-items-center my-5 ">
+  <h5 class="wr-2 fw-semibold">Just For You</h5>
+  <button type="button" class="btn btn-outline-secondary fw-bold">See All</button>
+</div>
 
+<!-- Wishlist Row 2 -->
+<div class="row g-4 shadow rounded">
+  <!-- Card 1 -->
+  <div class="col-md-6 col-lg-3">
+    <div class="card border-0 shadow-sm">
+      <div class="position-relative">
+        <span class="badge bg-danger position-absolute top-0 start-0 m-2">-35%</span>
+        <button class="btn btn-light position-absolute top-0 end-0 m-2 border rounded-circle">🗑</button>
+        <img src="images/laptop.png" class="card-img-top img-fluid rounded" alt="Gucci Bag">
+      </div>
+      <div class="card-body text-center">
+        <h6 class="card-title">Gucci Duffle Bag</h6>
+        <p class="text-danger fw-bold">$960 <span class="text-muted text-decoration-line-through">$1160</span></p>
+        <button class="btn btn-dark w-100">🛒 Add To Cart</button>
+      </div>
+    </div>
+  </div>
 
-    <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+  <!-- Card 2 -->
+  <div class="col-md-6 col-lg-3">
+    <div class="card border-0 shadow-sm">
+      <div class="position-relative">
+        <button class="btn btn-light position-absolute top-0 end-0 m-2 border rounded-circle">🗑</button>
+        <img src="images/LCD.png" class="card-img-top img-fluid rounded" alt="CPU Cooler">
+      </div>
+      <div class="card-body text-center">
+        <h6 class="card-title">RGB Liquid CPU Cooler</h6>
+        <p class="text-danger fw-bold">$1960</p>
+        <button class="btn btn-dark w-100">🛒 Add To Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="col-md-6 col-lg-3">
+    <div class="card border-0 shadow-sm">
+      <div class="position-relative">
+        <span class="badge bg-success position-absolute top-0 start-0 m-2 ">NEW</span>
+        <button class="btn btn-light position-absolute top-0 end-0 m-2 border rounded-circle">🗑</button>
+        <img src="images/gameplay.png" class="card-img-top img-fluid rounded" alt="Gamepad">
+      </div>
+      <div class="card-body text-center">
+        <h6 class="card-title">Shooter USB Gamepad</h6>
+        <p class="text-danger fw-bold">$550</p>
+        <button class="btn btn-dark w-100">🛒 Add To Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="col-md-6 col-lg-3">
+    <div class="card border-0 shadow-sm">
+      <div class="position-relative">
+        <button class="btn btn-light position-absolute top-0 end-0 m-2 border rounded-circle">🗑</button>
+        <img src="images/keyboard.png" class="card-img-top img-fluid rounded" alt="Jacket">
+      </div>
+      <div class="card-body text-center">
+        <h6 class="card-title">Quilted Satin Jacket</h6>
+        <p class="text-danger fw-bold">$750</p>
+        <button class="btn btn-dark w-100">🛒 Add To Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+  <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
