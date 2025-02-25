@@ -3,69 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONTACT</title>
+    <title>SignUp</title>
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <!-- Breadcrumb -->
-    <div class="container mt-4">
-        <p class="text-secondary">
-            Home / <span class="text-dark fw-semibold">Contact</span>
-        </p>
-    </div>
-    <div class="container my-5">
-        <div class="row g-4">
-
-            <div class="col-lg-4 col-md-5">
-                <div class="p-4 shadow rounded bg-light">
-                    <div class="d-flex align-items-center mb-3">
-                        <div class="me-3">
-                            <img src="images/contact-phone.png" alt="left" width="50">
-                        </div>
-                        <div>
-                            <h5 class="mb-1">Call To Us</h5>
-                            <p class="text-muted mb-0">We are available 24/7</p>
-                            <p class="text-muted fw-semibold">+8801611112222</p>
-                        </div>
-                    </div>
-                    <hr>
-
-                    <div class="d-flex align-items-center mb-3">
-                        <div class="me-3">
-                            <img src="images/contact-mail.png" alt="left" width="50">
-                        </div>
-                        <div>
-                            <h5 class="mb-1">Write To Us</h5>
-                            <p class="text-muted mb-0">We will contact you within 24 hours.</p>
-                            <p class="text-muted fw-semibold">customer@exclusive.com</p>
-                            <p class="text-muted fw-semibold">support@exclusive.com</p>
-                        </div>
-                    </div>
-                </div>
+    <div class="container vh-100 d-flex align-items-center justify-content-center">
+        <div class="row w-100">
+            <!-- Left Image Section -->
+            <div class="col-md-6 d-none d-md-block">
+                <img src="images/signup.png" alt="Shopping" class="img-fluid">
             </div>
-
-            <div class="col-lg-8 col-md-7">
-                <div class="p-4 shadow rounded bg-light">
-                    <div class="row g-3">
-                        <div class="col-md-6 col-sm-12">
-                            <input type="text" class="form-control w-100" placeholder="Your Name" required>
+    
+            <!-- Right Form Section -->
+            <div class="col-md-6 d-flex align-items-center">
+                <div class="w-75 mx-auto">
+                    <h2 class="fw-bold">Create an account</h2>
+                    <p class="text-muted">Enter your details below</p>
+    
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Name">
                         </div>
-                        <div class="col-md-6 col-sm-12">
-                            <input type="email" class="form-control w-100" placeholder="Your Email *" required>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email or Phone Number">
                         </div>
-                        <div class="col-md-6 col-sm-12">
-                            <input type="text" class="form-control w-100" placeholder="Your Phone *" required>
+                        <div class="mb-3">
+                            <input type="password" class="form-control" placeholder="Password">
                         </div>
-                        <div class="col-12">
-                            <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
-                        </div>
-                        <div class="col-12 text-start">
-                            <button class="btn btn-danger px-4">Send Message</button>
-                        </div>
-                    </div>
+                        
+                        <button type="submit" class="btn btn-danger w-100">Create Account</button>
+                        
+                        <div class="text-center my-3">or</div>
+    
+                        <button class="btn btn-outline-dark w-100 d-flex align-items-center justify-content-center">
+                            <img src="images/Google.png" alt="Google" width="20" class="me-2">
+                            Sign up with Google
+                        </button>
+                    </form>
+    
+                    <p class="text-center mt-3">
+                        Already have an account? 
+                        <a href="login.html" class="fw-bold text-decoration-none">Log in</a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -144,8 +124,6 @@
     </div>
 </footer>
 
-
-
-    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
 </body>
 </html>

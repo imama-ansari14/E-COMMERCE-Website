@@ -22,4 +22,8 @@
     background-color: rgb(219, 68, 68);
   }
   
+ /* FOOTER */
+ .footer-link:hover{
+    text-decoration: underline 1px white;
+}
  
